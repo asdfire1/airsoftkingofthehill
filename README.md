@@ -28,3 +28,6 @@
 - A1 - Settings / Admin reset switch, while closed the goal time can be changed and a team victory is cleared, uses pullup, connect to ground
 - A7 - Potentiometer pin used to change goal time
 - A4, A5 - I2C LCD pins
+### Needed Libraries:
+- [NewTone](https://forum.arduino.cc/index.php?topic=143940.0)
+- LiquidCrystal I2C
