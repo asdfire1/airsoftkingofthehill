@@ -1,7 +1,7 @@
 # King of the Hill
 ### This is the code for an Arduino based device which allows to play king of the hill gamemode in airsoft / paintball. [Pictures of a finished device can be seen on the wiki.](https://github.com/asdfire1/airsoftkingofthehill/wiki)
 ## Operation:
-### Connect the power, turn the key / flip the admin switch to closed, if youre using an RGB strip it should glow red. Set the desired goal time using the potentiometer, programmed times: 5, 10, 15, 20, 30, 40, 60 minutes. Turn the key back to open position / flip the switch. Now when one of the teams presses their corresponding button their time will start counting down and the RGB strip will glow their color. Once a team gets to the goal time the RGB strip will blink alternating between the winning team color and red, the buzzer will beep and the display will also show which team won and how much time the other team had. After this the device can be reset using the admin key / switch.
+### Connect the power, turn the key / flip the admin switch to closed, if youre using an RGB strip it should glow red. Set the desired goal time using the potentiometer, programmed times: 5, 10, 15, 20, 30, 40, 60 minutes. Turn the key back to open position / flip the switch. Now when one of the teams presses their corresponding button their time will start counting down and the RGB strip will glow their color. The time is displayed on the LCD and the buzzer makes a tick sound every second. Once a team gets to the goal time the RGB strip will blink alternating between the winning team color and red, the buzzer will beep and the display will also show which team won and how much time the other team had. After this the device can be reset using the admin key / switch.
 
 ### Parts list:
 - 1*Arduino nano
